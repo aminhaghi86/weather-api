@@ -8,7 +8,7 @@ buttonEl.onclick = () => {
     const res = await fetch(url);
     const data = await res.json();
     weatherDiv.innerHTML = `
-    <img width="150" height="150" src="${data.current.condition.icon}"/>
+    <img width="150" height="150" alt="typeofweather" src="${data.current.condition.icon}"/>
     <p id="nameCity"> Coutry : ${data.location.country}</p>
     <p id="nameCity"> City : ${data.location.name}</p>
     <p id="nameCity"> Type : ${data.current.condition.text}</p>
