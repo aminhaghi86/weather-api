@@ -4,9 +4,7 @@
     box-sizing: border-box;
     
 }
-body{
-    /* background-color: #B4ADEA; */
-}
+  
 .searchBox{
     padding: 25px;
     display: flex;
