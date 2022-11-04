@@ -13,7 +13,7 @@ buttonEl.onclick = async () => {
     buttonEl.remove();
     inputEl.remove();
     const url =
-      "http://api.weatherapi.com/v1/forecast.json?key=78e3688d63364827a4a204236223110&q=" +
+      "https://api.weatherapi.com/v1/forecast.json?key=78e3688d63364827a4a204236223110&q=" +
       inputValue +
       "&aqi=no";
     const res = await fetch(url);
